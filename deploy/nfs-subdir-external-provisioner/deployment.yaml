@@ -36,4 +36,4 @@ spec:
         - name: nfs-client-root
           nfs:
             server: bm06.dyli.org
-            path: /ifs/kubernetes
+            path: /mnt/zpool0/boh/heinz
