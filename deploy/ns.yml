@@ -2,11 +2,14 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  creationTimestamp: null
   name: cert-manager
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  creationTimestamp: null
   name: scratch
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kubeapps
