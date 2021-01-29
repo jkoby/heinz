@@ -11,4 +11,7 @@ helm:
         enabled: true
       kubernetesIngress:
         enabled: true
+    ingressClass:
+      enabled: true
+      isDefaultClass: true
 #TODO: ACME/Lets Encrypt
