@@ -1,0 +1,6 @@
+helm:
+  chart: "jetstack/cert-manager"
+  repo: "https://charts.jetstack.io"
+  version: "v1.2.0"
+  values:
+    installCRDs: true
