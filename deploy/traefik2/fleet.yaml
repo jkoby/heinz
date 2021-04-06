@@ -30,5 +30,8 @@ helm:
         enabled: true
       kubernetesIngress:
         enabled: true
+    ports:
+      web:
+        redirectTo: websecure
 
 #    replicas: 2
